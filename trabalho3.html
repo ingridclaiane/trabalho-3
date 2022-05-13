@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px;
+      /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #54CD86;
+      height: 300px;
+      /* only for demonstration, should be removed */
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #54CD86;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+
+    <h1 style="background-color:MediumSeaGreen;">Starbucks Coffee</h1>
+    <p><b>Nesse layout vamos mostrar os serviços da empresa Starbucks.</p>
+    <p>Uma multinacional norte-americana, com a maior cadeia de cafeterias do mundo.</b></p>
+
+    <head>
+      <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 200px;
+          background-color: #98765D;
+          border: 1px solid #555;
+        }
+
+        li a {
+          display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+        }
+
+        li {
+          text-align: center;
+          border-bottom: 1px solid #555;
+        }
+
+        li:last-child {
+          border-bottom: none;
+        }
+
+        li a.active {
+          background-color: #5F9B82;
+          color: white;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #5F9B82;
+          color: white;
+        }
+      </style>
+    </head>
+
+    <body>
+
+      <ul>
+        <li><a class="active" href="#quem somos">Quem Somos</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#suporte">Suporte</a></li>
+      </ul>
+
+    </body>
+
+    <body>
+      <center>
+        <img src="./download.png" height="250">
+      </center>
+      <header>
+        <h2>Bebidas Famosas</h2>
+      </header>
+
+      <section>
+        <nav>
+          <ul>
+            <li><a href="#">Vanilla Latte</a></li>
+            <li><a href="#">Pumpkin Spice Latte</a></li>
+            <li><a href="#">Frappuccino Cinnamon Roll</a></li>
+          </ul>
+        </nav>
+
+        <article>
+          <h1>Vanilla Latte</h1>
+
+          <p><i>Começando com uma escolha clássica, o Vanilla Latte é simples, mas delicioso. Composto por uma dose de
+              espresso, leite vaporizado e calda de baunilha, é uma das escolhas mais descomplicadas e indiscutivelmente
+              o melhor café quente da Starbucks.</i>
+          <p><i>O sabor sutil da baunilha adiciona uma certa doçura ao gosto da bebida, dando um ânimo necessário para o
+              meio da tarde, tornando esta escolha clássica o melhor café com leite da Starbucks</i>
+        </article>
+      </section>
+      <html lang="en">
+
+      <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          /* Style the header */
+          header {
+            background-color: #666;
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+          }
+
+          /* Create two columns/boxes that floats next to each other */
+          nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+          }
+
+          /* Style the list inside the menu */
+          nav ul {
+            list-style-type: none;
+            padding: 0;
+          }
+
+          article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+            /* only for demonstration, should be removed */
+          }
+
+          /* Clear floats after the columns */
+          section::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* Style the footer */
+          footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+          }
+
+          /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+          @media (max-width: 600px) {
+
+            nav,
+            article {
+              width: 100%;
+              height: auto;
+            }
+          }
+        </style>
+      </head>
+
+      <body>
+
+        <header>
+          <h2>Tamanho dos Copos</h2>
+        </header>
+
+        <section>
+          <nav>
+            <ul>
+              <li><a href="#">Tall/Tall frio</a></li>
+              <li><a href="#">Grande/Grande frio</a></li>
+              <li><a href="#">Venti/Venti frio</a></li>
+            </ul>
+          </nav>
+
+          <article>
+            <h1>Tall/Tall Frio</h1>
+            <p><i>Pequeno</i></p>
+            <p><i>Volume de bebida quente:354,88 ml (12 oz.)</i></p>
+          </article>
+        </section>
+
+        <body>
+
+
+          <size>
+            <img src="./bebidas.png" height="200">
+          </size>
+
+          <body>
+
+            <body>
+
+
+
+              <p><b>Contato da Empresa:</b></p>
+
+              <address>
+                Mande um e-mail.<br>
+                Nos visite aqui:<br>
+                123, Algum lugar<br>
+                BR
+              </address>
+
+            </body>
+          </body>
+
+      </html>
